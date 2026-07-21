@@ -184,22 +184,22 @@ export default function Home() {
           </div>
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Education & Certifications</h2>
-            <ul className="space-y-4 text-sm text-zinc-700">
-              <li className="flex items-start gap-3">
-                <span className="text-lg">🎓</span>
-                <div>
-                  <strong>MBA (P&O Mgmt & IT)</strong>
-                  <p className="text-xs text-zinc-500">Graduated 2021 | BA Graduated 2010</p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-lg">🎖️</span>
-                <div>
-                  <strong>Professional Certifications</strong>
-                  <p className="text-xs text-zinc-600 mt-1">ITIL Foundation • Microsoft Certified Professional (MCP) • Azure Fundamentals • CompTIA Security+ (Training)</p>
-                </div>
-              </li>
-            </ul>
+<ul className="space-y-4 text-sm text-zinc-700">
+  <li className="flex items-start gap-3">
+    <span className="text-lg">🎓</span>
+    <div>
+      <strong>MBA in Operations & IT</strong>
+      <p className="text-xs text-zinc-500">Graduated 2021</p>
+    </div>
+  </li>
+  <li className="flex items-start gap-3">
+    <span className="text-lg">🏅</span>
+    <div>
+      <strong>Professional Certifications</strong>
+      <p className="text-xs text-zinc-600 mt-1">ITIL Foundation • Microsoft Certified Professional (MCP) • Azure Fundamentals • CompTIA Security+ (Training)</p>
+    </div>
+  </li>
+</ul>
           </div>
         </section>
 
