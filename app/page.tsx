@@ -217,20 +217,10 @@ export default function Home() {
   <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">
     Professional Development & Training
   </span>
-  <ul className="text-xs text-zinc-600 mt-1 space-y-1">
-    <li>• <strong>PMP Exam Prep</strong> — Udemy (2024)</li>
-    <li>• <strong>AZ-900 Prep Training</strong> — Udemy (2022)</li>
-    <li>• <strong>CompTIA Cloud+ Series (Basic, Intermediate, Advanced)</strong> — AOE (2021)</li>
-    <li>• <strong>CISSP Cert Prep: Security & Risk Management</strong> — LinkedIn Learning (2021)</li>
-    <li>• <strong>Cybersecurity Foundations</strong> — LinkedIn Learning (2021)</li>
-    <li>• <strong>Network Server Security & Protection</strong> — AOE (2021)</li>
-    <li>• <strong>IT Management: Software & Databases</strong> — AOE (2020)</li>
-    <li>• <strong>Introduction to IT for Managers</strong> — Alison (2019)</li>
-  </ul>
-</div>
+            </div>
           </div>
-        </section>
-
+        </div>
+      </section>
         {/* 6. CONTACT SECTION */}
         <section id="contact" className="bg-white p-8 rounded-xl shadow-sm border border-zinc-200 max-w-2xl mx-auto">
           <h2 className="text-2xl font-bold mb-2 text-slate-900">Initiate Collaboration</h2>
