@@ -174,12 +174,23 @@ export default function Home() {
         <section id="tools" className="grid md:grid-cols-2 gap-12">
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Technical Arsenal</h2>
-            <div className="flex flex-wrap gap-2">
-              {['Microsoft 365', 'Google Workspace', 'Azure AD (Entra)', 'SonicWall Firewall', 'XDR Security', 'ThreatDown', 'IDrive & CrashPlan', 'PowerShell', 'Docker', 'Tally Prime Server', 'Avaya IP Office / 3CX', 'Hikvision NVR'].map((tool) => (
-                <span key={tool} className="text-xs font-medium bg-zinc-200 text-zinc-800 px-3 py-1.5 rounded-md">
-                  {tool}
-                </span>
-              ))}
+            <div className="space-y-4">
+              <div>
+                <p className="text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Cloud & Systems</p>
+                <div className="flex flex-wrap gap-2">
+                  {['Microsoft 365', 'Google Workspace', 'Azure AD (Entra)', 'Docker', 'Tally Prime Server'].map((tool) => (
+                    <span key={tool} className="text-xs font-medium bg-zinc-200 text-zinc-800 px-3 py-1.5 rounded-md">{tool}</span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <p className="text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-2">Security, Network & Admin</p>
+                <div className="flex flex-wrap gap-2">
+                  {['SonicWall Firewall', 'XDR Security', 'ThreatDown', 'IDrive & CrashPlan', 'PowerShell', 'Avaya IP Office / 3CX', 'Hikvision NVR'].map((tool) => (
+                    <span key={tool} className="text-xs font-medium bg-zinc-200 text-zinc-800 px-3 py-1.5 rounded-md">{tool}</span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
           <div>
