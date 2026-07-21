@@ -197,10 +197,11 @@ export default function Home() {
     <div>
       <strong>Certifications & Continuous Learning</strong>
 <strong>Certifications & Continuous Learning</strong>
-
 {/* 1. Core Official Certifications */}
 <div className="mt-3">
-  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Official Certifications</span>
+  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">
+    Official Certifications
+  </span>
   <ul className="text-xs text-zinc-600 mt-1 space-y-1">
     <li>• <strong>CompTIA Security+ (ce)</strong> — CompTIA (2025–2028)</li>
     <li>• <strong>Generative AI Foundations</strong> — upGrad (2025)</li>
@@ -213,7 +214,9 @@ export default function Home() {
 
 {/* 2. Professional Development & Training */}
 <div className="mt-4">
-  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Professional Development & Training</span>
+  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">
+    Professional Development & Training
+  </span>
   <ul className="text-xs text-zinc-600 mt-1 space-y-1">
     <li>• <strong>PMP Exam Prep</strong> — Udemy (2024)</li>
     <li>• <strong>AZ-900 Prep Training</strong> — Udemy (2022)</li>
