@@ -14,15 +14,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Intaj Khan | Strategic IT Manager',
-  description: 'Portfolio of Intaj Khan, a Strategic IT Manager with 13+ years of experience leading IT operations, cloud migration, and cybersecurity across multiple sectors.',
-  keywords: ['Intaj Khan', 'IT Manager', 'Strategic IT', 'Cloud Migration', 'Cybersecurity', 'IT Infrastructure', 'UAE'],
+  description: 'Portfolio of Intaj Khan, a Strategic IT Manager with 13+ years of experience leading IT operations and delivering high system availability.',
+  keywords: ['Intaj Khan', 'IT Manager', 'Strategic IT', 'Cloud Migration', 'Cybersecurity', 'IT Infrastructure'],
   openGraph: {
     title: 'Intaj Khan | Strategic IT Manager',
     description: '13+ years of experience leading IT operations and delivering high system availability.',
     type: 'website',
-  }
+  },
+  verification: {
+    google: 'x0ixHsMF7R9kh4lUqo4jxvf1Txcorof36tcYQn0_2RY',
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
