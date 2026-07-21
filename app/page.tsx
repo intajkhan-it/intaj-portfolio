@@ -196,6 +196,7 @@ export default function Home() {
     <span className="text-lg">🏅</span>
     <div>
       <strong>Certifications & Continuous Learning</strong>
+<strong>Certifications & Continuous Learning</strong>
 
 {/* 1. Core Official Certifications */}
 <div className="mt-3">
