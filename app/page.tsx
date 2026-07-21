@@ -195,11 +195,35 @@ export default function Home() {
   <li className="flex items-start gap-3">
     <span className="text-lg">🏅</span>
     <div>
-      <strong>Professional Certifications</strong>
-      <p className="text-xs text-zinc-600 mt-1">ITIL Foundation • Microsoft Certified Professional (MCP) • Azure Fundamentals • CompTIA Security+ (Training)</p>
-    </div>
-  </li>
-</ul>
+      <strong>Certifications & Continuous Learning</strong>
+
+{/* 1. Core Official Certifications */}
+<div className="mt-3">
+  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Official Certifications</span>
+  <ul className="text-xs text-zinc-600 mt-1 space-y-1">
+    <li>• <strong>CompTIA Security+ (ce)</strong> — CompTIA (2025–2028)</li>
+    <li>• <strong>Generative AI Foundations</strong> — upGrad (2025)</li>
+    <li>• <strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong> — Microsoft (2023)</li>
+    <li>• <strong>ITIL Foundation Level</strong> — AXELOS Global Best Practice (2022)</li>
+    <li>• <strong>Microsoft Certified Professional (MCP)</strong> — Microsoft (2012)</li>
+    <li>• <strong>Microsoft Certified Technology Specialist (MCTS)</strong> — Microsoft (2010)</li>
+  </ul>
+</div>
+
+{/* 2. Professional Development & Training */}
+<div className="mt-4">
+  <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">Professional Development & Training</span>
+  <ul className="text-xs text-zinc-600 mt-1 space-y-1">
+    <li>• <strong>PMP Exam Prep</strong> — Udemy (2024)</li>
+    <li>• <strong>AZ-900 Prep Training</strong> — Udemy (2022)</li>
+    <li>• <strong>CompTIA Cloud+ Series (Basic, Intermediate, Advanced)</strong> — AOE (2021)</li>
+    <li>• <strong>CISSP Cert Prep: Security & Risk Management</strong> — LinkedIn Learning (2021)</li>
+    <li>• <strong>Cybersecurity Foundations</strong> — LinkedIn Learning (2021)</li>
+    <li>• <strong>Network Server Security & Protection</strong> — AOE (2021)</li>
+    <li>• <strong>IT Management: Software & Databases</strong> — AOE (2020)</li>
+    <li>• <strong>Introduction to IT for Managers</strong> — Alison (2019)</li>
+  </ul>
+</div>
           </div>
         </section>
 
